@@ -15,5 +15,5 @@ perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_model.ce'.
 
 -- Load the data
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/hospitals.ce'.
+--perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/hospitals.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/datasets.ce'.
