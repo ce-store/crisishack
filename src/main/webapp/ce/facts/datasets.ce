@@ -13,12 +13,17 @@ there is a geojson dataset named 'ds_003' that
   has 'sierra leone ebola treatment unit' as concept name and
   has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Asle_heal_pt_unmeer_ebolacarefacilities&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
 
-  there is a geojson dataset named 'ds_004' that
-    has 'Sierra Leone Health Facilities' as description and
-    has 'sierra leone health facility' as concept name and
-    has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Asle_heal_pt_cdc_healthfacilities&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
+there is a geojson dataset named 'ds_004' that
+  has 'Sierra Leone Health Facilities' as description and
+  has 'sierra leone health facility' as concept name and
+  has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Asle_heal_pt_cdc_healthfacilities&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
 
-    there is a geojson dataset named 'ds_005' that
-      has 'Liberia Transmission Towers' as description and
-      has 'liberia transmission tower' as concept name and
-      has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Albr_telc_pt_misc_transmissiontowers&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
+there is a geojson dataset named 'ds_005' that
+  has 'Liberia Transmission Towers' as description and
+  has 'liberia transmission tower' as concept name and
+  has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Albr_telc_pt_misc_transmissiontowers&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
+
+  there is a geojson dataset named 'ds_006' that
+    has 'Regional points of interest' as description and
+    has 'point of interest' as concept name and
+    has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Areg_pois_pt_misc_govt_ngo_offices&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
