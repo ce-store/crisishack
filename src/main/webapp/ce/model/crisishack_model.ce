@@ -46,4 +46,5 @@ conceptualise a ~ dataset ~ D that
 conceptualise a ~ geojson dataset ~ D that
   is a dataset.
 
-conceptualise a ~ person ~ P.
+conceptualise a ~ person ~ P that
+  is a spatial thing.
