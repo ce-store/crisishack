@@ -1,0 +1,16 @@
+-- --------------------------------------------------------------------------
+-- (C) Copyright IBM Corporation  2011, 2017
+-- All Rights Reserved
+-- --------------------------------------------------------------------------
+
+-- Load the model
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cmd/ch_load.cecmd'.
+
+
+-- Load the cached data
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cached/liberia_community_care_centres.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cached/liberia_transmission_towers.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cached/regional_points_of_interest.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cached/sierra_leone_community_centres.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cached/sierra_leone_ebola_treatment_units.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/cached/sierra_leone_health_facilities.ce'.
