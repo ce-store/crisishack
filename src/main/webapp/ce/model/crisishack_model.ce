@@ -9,11 +9,20 @@ conceptualise a ~ hospital ~ H that
 conceptualise a ~ community care centre ~ C that
   is a hospital.
 
+conceptualise a ~ ebola treatment unit ~ E that
+  is a hospital.
+
 conceptualise a ~ sierra leone community care centre ~ C that
   is a community care centre.
 
+conceptualise a ~ sierra leone ebola treatment unit ~ E that
+  is an ebola treatment unit.
+
 conceptualise a ~ liberia community care centre ~ C that
   is a community care centre.
+
+conceptualise a ~ liberia ebola treatment unit ~ E that
+  is an ebola treatment unit.
 
 conceptualise a ~ dataset ~ D that
   has the value CN as ~ concept name ~ and

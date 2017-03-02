@@ -7,3 +7,8 @@ there is a geojson dataset named 'ds_002' that
   has 'Sierra Leone Community Care Centres' as description and
   has 'sierra leone community care centre' as concept name and
   has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Asle_heal_pt_unmeer_ccc&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
+
+there is a geojson dataset named 'ds_002' that
+  has 'Sierra Leone Ebola Treatment Units' as description and
+  has 'sierra leone ebola treatment unit' as concept name and
+  has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Asle_heal_pt_unmeer_ebolacarefacilities&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
