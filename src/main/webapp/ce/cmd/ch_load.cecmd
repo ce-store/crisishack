@@ -1,0 +1,18 @@
+-- --------------------------------------------------------------------------
+-- (C) Copyright IBM Corporation  2011, 2017
+-- All Rights Reserved
+-- --------------------------------------------------------------------------
+
+perform reset store with starting uid '1'.
+
+-- Load the general model (core concepts)
+--perform load sentences from url './ce/general/agents/agent_model.ce'.
+perform load sentences from url './ce/general/model/misc_model.ce'.
+perform load sentences from url './ce/general/model/spatial_model.ce'.
+perform load sentences from url './ce/general/model/temporal_model.ce'.
+
+-- Load the CrisisHack model
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_model.ce'.
+
+-- Load the data
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/hospitals.ce'.
