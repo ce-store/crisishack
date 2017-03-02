@@ -47,4 +47,6 @@ conceptualise a ~ geojson dataset ~ D that
   is a dataset.
 
 conceptualise a ~ person ~ P that
-  is a spatial thing.
+  is a spatial thing and
+  has the value TN as ~ telephone number ~ and
+  has the value UU as ~ UUID ~.
