@@ -1,0 +1,19 @@
+--All icons obtained from Maps Icons Collection https://mapicons.mapsmarker.com
+
+the renderable thing 'person'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/person.png' as icon file name.
+
+the renderable thing 'community care centre'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/community_care_centre.png' as icon file name.
+
+the renderable thing 'ebola treatment unit'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/ebola_treatment_unit.png' as icon file name.
+
+the renderable thing 'health facility'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/health_facility.png' as icon file name.
+
+the renderable thing 'transmission tower'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/transmission_tower.png' as icon file name.
+
+the renderable thing 'point of interest'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/point_of_interest.png' as icon file name.
