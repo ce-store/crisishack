@@ -1,9 +1,9 @@
 -- All sentences for source src_009
 -- Extracted from http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Asle_heal_pt_unmeer_ebolacarefacilities&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature
 
-there is a sierra leone ebola treatment unit named 'sle_heal_pt_unmeer_ebolacarefacilities.9' that
-  has '-1.7976931348623157e 308' as latitude and
-  has '-1.7976931348623157e 308' as longitude.
+--there is a sierra leone ebola treatment unit named 'sle_heal_pt_unmeer_ebolacarefacilities.9' that
+--  has '-1.7976931348623157e 308' as latitude and
+--  has '-1.7976931348623157e 308' as longitude.
 
 there is a sierra leone ebola treatment unit named 'sle_heal_pt_unmeer_ebolacarefacilities.10' that
   has '8.005088' as latitude and

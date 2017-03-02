@@ -17,3 +17,6 @@ perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/s
 -- Load the data
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/metamodel.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/datasets.ce'.
+
+-- Load the simulated data
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people.ce'.
