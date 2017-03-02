@@ -12,11 +12,17 @@ conceptualise a ~ community care centre ~ C that
 conceptualise a ~ ebola treatment unit ~ E that
   is a hospital.
 
+conceptualise a ~ health facility ~ H that
+  is a hospital.
+
 conceptualise a ~ sierra leone community care centre ~ C that
   is a community care centre.
 
 conceptualise a ~ sierra leone ebola treatment unit ~ E that
   is an ebola treatment unit.
+
+conceptualise a ~ sierra leone health facility ~ H that
+    is a health facility.
 
 conceptualise a ~ liberia community care centre ~ C that
   is a community care centre.
