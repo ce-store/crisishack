@@ -15,6 +15,9 @@ conceptualise a ~ ebola treatment unit ~ E that
 conceptualise a ~ health facility ~ H that
   is a hospital.
 
+conceptualise a ~ transmission tower ~ T that
+  is a spatial thing.
+
 conceptualise a ~ sierra leone community care centre ~ C that
   is a community care centre.
 
@@ -29,6 +32,9 @@ conceptualise a ~ liberia community care centre ~ C that
 
 conceptualise a ~ liberia ebola treatment unit ~ E that
   is an ebola treatment unit.
+
+  conceptualise a ~ liberia transmission tower ~ T that
+    is a transmission tower.
 
 conceptualise a ~ dataset ~ D that
   has the value CN as ~ concept name ~ and
