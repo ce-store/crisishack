@@ -1,0 +1,140 @@
+[{
+    "id": "6e38adde.893884",
+    "type": "http in",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "url": "/load-all-datasets",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 121,
+    "y": 98,
+    "wires": [
+        ["c6fee930.829448"]
+    ]
+}, {
+    "id": "20ebe6c1.24ecea",
+    "type": "function",
+    "z": "6c2fc85b.b777b8",
+    "name": "properties",
+    "func": "msg.properties = {};\n\nif (msg.properties.cestore != null) {\n  msg.url = msg.properties.cestore;\n} else {\n  msg.url = \"http://ce-crisishack.eu-gb.mybluemix.net/ce-store\";\n}\n\nmsg.url += \"/concepts/dataset/instances?style=normalised\";\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 318,
+    "y": 228,
+    "wires": [
+        ["aeb335be.a04508"]
+    ]
+}, {
+    "id": "c6fee930.829448",
+    "type": "http request",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "http://nr-crisishack.eu-gb.mybluemix.net/list-datasets",
+    "tls": "",
+    "x": 131,
+    "y": 177,
+    "wires": [
+        ["16a80b31.15bd65", "2dd3bf06.76879", "20ebe6c1.24ecea"]
+    ]
+}, {
+    "id": "2dd3bf06.76879",
+    "type": "http response",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "x": 261,
+    "y": 282,
+    "wires": []
+}, {
+    "id": "16a80b31.15bd65",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": false,
+    "console": "false",
+    "complete": "true",
+    "x": 337,
+    "y": 125,
+    "wires": []
+}, {
+    "id": "2fffb235.608b5e",
+    "type": "http request",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 666,
+    "y": 544,
+    "wires": [
+        []
+    ]
+}, {
+    "id": "aeb335be.a04508",
+    "type": "split",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "splt": "\\n",
+    "x": 424.5,
+    "y": 289,
+    "wires": [
+        ["50369156.9d733", "3e303af.67995c6"]
+    ]
+}, {
+    "id": "50369156.9d733",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": false,
+    "console": "false",
+    "complete": "true",
+    "x": 535,
+    "y": 231,
+    "wires": []
+}, {
+    "id": "3e303af.67995c6",
+    "type": "function",
+    "z": "6c2fc85b.b777b8",
+    "name": "properties",
+    "func": "msg.req = {};\nmsg.res = {};\nmsg.properties = {};\nmsg.responseUrl = {};\n\nmsg.url = \"http://nr-crisishack.eu-gb.mybluemix.net\";\n\nmsg.url += \"/geojson-to-ce?concept=\";\nmsg.url += msg.payload[\"concept name\"];\nmsg.url += \"&geojson=\" + encodeURIComponent(msg.payload[\"url\"]);\n\nmsg.payload = null;\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 510,
+    "y": 353,
+    "wires": [
+        ["3168aac6.d76be6", "95fcdeca.8cef7"]
+    ]
+}, {
+    "id": "3168aac6.d76be6",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 641,
+    "y": 299,
+    "wires": []
+}, {
+    "id": "95fcdeca.8cef7",
+    "type": "change",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "rules": [{
+        "t": "delete",
+        "p": "headers",
+        "pt": "msg"
+    }],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 491,
+    "wires": [
+        ["2fffb235.608b5e"]
+    ]
+}]

@@ -1,0 +1,71 @@
+[{
+    "id": "4d85849e.1a53cc",
+    "type": "http response",
+    "z": "b00bacb8.042fa",
+    "name": "",
+    "x": 604,
+    "y": 188,
+    "wires": []
+}, {
+    "id": "22eecc86.9e3744",
+    "type": "http request",
+    "z": "b00bacb8.042fa",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 453.5,
+    "y": 154,
+    "wires": [
+        ["4d85849e.1a53cc", "a92e68b2.e08428"]
+    ]
+}, {
+    "id": "683f7751.f9bf58",
+    "type": "function",
+    "z": "b00bacb8.042fa",
+    "name": "properties",
+    "func": "msg.properties = {};\n\nif (msg.properties.cestore != null) {\n  msg.url = msg.properties.cestore;\n} else {\n  msg.url = \"http://ce-crisishack.eu-gb.mybluemix.net/ce-store\";\n}\n\nmsg.url += \"/concepts/dataset/instances?style=normalised\";\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 306,
+    "y": 113,
+    "wires": [
+        ["452a4bb3.0c99d4", "22eecc86.9e3744"]
+    ]
+}, {
+    "id": "a92e68b2.e08428",
+    "type": "debug",
+    "z": "b00bacb8.042fa",
+    "name": "",
+    "active": false,
+    "console": "false",
+    "complete": "true",
+    "x": 631.5,
+    "y": 145,
+    "wires": []
+}, {
+    "id": "c9b0c292.3e623",
+    "type": "http in",
+    "z": "b00bacb8.042fa",
+    "name": "",
+    "url": "/list-datasets",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 143,
+    "y": 72,
+    "wires": [
+        ["683f7751.f9bf58"]
+    ]
+}, {
+    "id": "452a4bb3.0c99d4",
+    "type": "debug",
+    "z": "b00bacb8.042fa",
+    "name": "",
+    "active": false,
+    "console": "false",
+    "complete": "true",
+    "x": 474,
+    "y": 111,
+    "wires": []
+}]
