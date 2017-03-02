@@ -1,0 +1,131 @@
+[{
+    "id": "ab33a5fc.4e4478",
+    "type": "http request",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 380.5,
+    "y": 361,
+    "wires": [
+        ["192852cc.599d5d", "956651d.d9cceb"]
+    ]
+}, {
+    "id": "192852cc.599d5d",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": false,
+    "console": "false",
+    "complete": "false",
+    "x": 583.5,
+    "y": 224,
+    "wires": []
+}, {
+    "id": "956651d.d9cceb",
+    "type": "function",
+    "z": "6c2fc85b.b777b8",
+    "name": "Generate CE",
+    "func": "msg.ce = \"\";\n\nfor (i = 0; i < msg.payload.features.length; i++) { \n  var feature = msg.payload.features[i];\n  var lat = feature.geometry.coordinates[1];\n  var lon = feature.geometry.coordinates[0];\n\n  msg.ce += \"there is a \";\n  msg.ce += msg.properties.concept + \" named '\";\n  msg.ce += feature.id;\n  msg.ce += \"' that\\n\";\n  msg.ce += \"  has '\" + lat + \"' as latitude and\\n\";\n  msg.ce += \"  has '\" + lon + \"' as longitude\";\n  msg.ce += \".\";\n  msg.ce += \"\\n\\n\";\n}\n\nif (msg.properties.cestore != null) {\n  msg.url = msg.properties.cestore;\n} else {\n  msg.url = \"http://ce-crisishack.eu-gb.mybluemix.net/ce-store/sentences\";\n}\n\nmsg.payload = msg.ce;\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 499.5,
+    "y": 430,
+    "wires": [
+        ["9fbad534.6e8348", "c2e50df7.2798f"]
+    ]
+}, {
+    "id": "9fbad534.6e8348",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": false,
+    "console": "false",
+    "complete": "ce",
+    "x": 641.5,
+    "y": 305,
+    "wires": []
+}, {
+    "id": "ce84d17e.4a831",
+    "type": "function",
+    "z": "6c2fc85b.b777b8",
+    "name": "properties",
+    "func": "msg.properties = {};\n//msg.properties.concept = \"community care centre\";\nmsg.properties.concept = msg.req.query.concept;\nmsg.properties.cestore = msg.req.query.cestore;\nmsg.properties.geojson = msg.req.query.geojson;\n\nif (msg.properties.concept == null) {\n    msg.properties.concept = \"spatial thing\";\n}\n\nmsg.req.query = {};\nmsg.url = msg.properties.geojson;\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 275.5,
+    "y": 247,
+    "wires": [
+        ["ab33a5fc.4e4478", "a6c8dce9.08597"]
+    ]
+}, {
+    "id": "33c6de78.2e2db2",
+    "type": "http in",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "url": "/geojson-to-ce",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 110.5,
+    "y": 86,
+    "wires": [
+        ["ce84d17e.4a831", "872aaa6b.376578"]
+    ]
+}, {
+    "id": "57a0746.3c3368c",
+    "type": "http response",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "x": 760.5,
+    "y": 579,
+    "wires": []
+}, {
+    "id": "872aaa6b.376578",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 366,
+    "y": 83,
+    "wires": []
+}, {
+    "id": "c2e50df7.2798f",
+    "type": "http request",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "method": "POST",
+    "ret": "txt",
+    "url": "",
+    "tls": "",
+    "x": 653.5,
+    "y": 513,
+    "wires": [
+        ["57a0746.3c3368c", "a7b46081.e245b"]
+    ]
+}, {
+    "id": "a7b46081.e245b",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 735,
+    "y": 393,
+    "wires": []
+}, {
+    "id": "a6c8dce9.08597",
+    "type": "debug",
+    "z": "6c2fc85b.b777b8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 432,
+    "y": 163,
+    "wires": []
+}]

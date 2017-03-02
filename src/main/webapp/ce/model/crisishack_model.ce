@@ -9,7 +9,14 @@ conceptualise a ~ hospital ~ H that
 conceptualise a ~ community care centre ~ C that
   is a hospital.
 
+conceptualise a ~ sierra leone community care centre ~ C that
+  is a community care centre.
+
+conceptualise a ~ liberia community care centre ~ C that
+  is a community care centre.
+
 conceptualise a ~ dataset ~ D that
+  has the value CN as ~ concept name ~ and
   has the value U as ~ url ~.
 
 conceptualise a ~ geojson dataset ~ D that
