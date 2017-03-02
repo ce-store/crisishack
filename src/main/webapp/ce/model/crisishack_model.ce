@@ -5,3 +5,12 @@ conceptualise a ~ media ~ M that
 conceptualise a ~ hospital ~ H that
   is a place and
   has the media P as ~ picture ~.
+
+conceptualise a ~ community care centre ~ C that
+  is a hospital.
+
+conceptualise a ~ dataset ~ D that
+  has the value U as ~ url ~.
+
+conceptualise a ~ geojson dataset ~ D that
+  is a dataset.

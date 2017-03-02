@@ -1,0 +1,3 @@
+there is a geojson dataset named 'ds_001' that
+  has 'Liberia Community Care Centres' as description and
+  has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Albr_heal_pt_unmeer_ccc&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
