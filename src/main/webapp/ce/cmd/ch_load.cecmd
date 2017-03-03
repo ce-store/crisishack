@@ -8,13 +8,14 @@ perform set 'autorun rules' to 'true'.
 perform set 'ce root' to 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/'.
 
 -- Load the general model (core concepts)
-perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/hudson/ce/core/cmd/load_core.cecmd'.
-perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/model/misc_model.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/model/spatial_model.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/model/temporal_model.ce'.
+perform load sentences from url '/hudson/ce/core/cmd/load_core.cecmd'.
+perform load sentences from url '/ce/general/model/misc_model.ce'.
+perform load sentences from url '/ce/general/model/spatial_model.ce'.
+perform load sentences from url '/ce/general/model/temporal_model.ce'.
 
 -- Load the CrisisHack model
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_model.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/extra_model.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_rules.ce'.
 
 -- Load the data
