@@ -1,6 +1,8 @@
 conceptualise an ~ illness ~ I.
 conceptualise a ~ toilet ~ T.
 conceptualise a ~ community ~ C.
+conceptualise a ~ damage ~ D.
+conceptualise a ~ family ~ F.
 
 the entity concept 'community'
   is expressed by ' village' and
@@ -24,3 +26,13 @@ the entity concept 'toilet'
   is expressed by ' bog' and
   is expressed by ' WC' and
   is expressed by ' water closet'.
+
+the entity concept 'damage'
+  is expressed by ' broken' and
+  is expressed by ' pothole' and
+  is expressed by ' bust'.
+
+the entity concept 'social'
+  is expressed by ' brother' and
+  is expressed by ' sister' and
+  is expressed by ' mum'.
