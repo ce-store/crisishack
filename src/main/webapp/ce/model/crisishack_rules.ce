@@ -39,7 +39,7 @@ if
   ( the agent A1 has the number N1 as telephone number ) and
   ( the agent A2 has the number N2 as telephone number )
 then
-  ( there is a message named M_$A1_#msg-_$S ) and
+  ( there is a message named M_$A1_#-msg-_$S ) and
   ( the message M is from the agent A1 ) and
   ( the message M is to the agent A2 ) and
   ( the message M has the value TS as timestamp ) and
