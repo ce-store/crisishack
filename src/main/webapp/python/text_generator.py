@@ -12,6 +12,7 @@ sentence_structures = dict()
 sentence_structures['ebola'] = dict()
 sentence_structures['sanitation'] = dict()
 sentence_structures['roads'] = dict()
+sentence_structures['water'] = dict()
 
 greeting = ("Hi", "Hello", "Hey", "") 
 sentence_structures['ebola']['subject'] = ("","")
@@ -26,14 +27,21 @@ sentence_structures['sanitation']['subject'] = ("The", "Our", "My", "The village
 sentence_structures['sanitation']['nouns'] = ("toilet", "toilets","loo", "bog", "WC" ,"outhouse")
 sentence_structures['sanitation']['adj'] = ("very", "really","","","")
 sentence_structures['sanitation']['verbs'] = ("is broken", "is blocked", "needs repairing", "is dirty", "is messy", "is full", "is overflowing", "needs cleaning")
-sentence_structures['sanitation']['frequency'] = 2000
+sentence_structures['sanitation']['frequency'] = 1500
 #adv = ("sick", "ill", "in pain", , "barfs") 
 
-# The/This/Our road/main road/side road/track/path [through our town/by the river/] is broken/needs repairing/is dangerous/has potholes/is unusable
+# The/This/Our road/main road/side road/track/path [through our town/by the river/to mosque/to church] is broken/needs repairing/is dangerous/has potholes/is unusable
 sentence_structures['roads']['subject'] = ("The", "Our", "My", "The village", "This")
 sentence_structures['roads']['nouns'] = ("road", "main road","side road", "path", "street" ,"track","route")
 sentence_structures['roads']['adj'] = ("through my town", "by the river","by my house","near the river","to work","to the toilets","to the factory","to the market","near the market")
 sentence_structures['roads']['verbs'] = ("is broken", "is dangerous", "needs repairing", "is blocked", "is unusable", "is unsafe", "has potholes", "needs clearing")
+sentence_structures['roads']['frequency'] = 2000
+
+# The church/mosque/village/town pump/water pump/water/well/water supply/drinking water/water well/tap/water tap/drinking water tap is broken/is not working/is contaminated/has failed/is not right/is dirty/is mucky/give bad water/pumps bad water/pumps dirty water
+sentence_structures['water']['subject'] = ("The church", "The mosque", "Our church's","Our mosque's","My church's","My mosque's","My village","The village","Our village's", "The community", "My", "Our", "The")
+sentence_structures['water']['nouns'] = ("pump", "water", "well", "water supply", "drinking water", "water well", "tap", "water tap", "drinking water tap")
+sentence_structures['water']['adj'] = ("really","totally","","","","")
+sentence_structures['water']['verbs'] = ("is broken","is not working","is contaminated","has failed","is not right","is dirty","is mucky","gives bad water","pumps bad water","pumps dirty water","is nasty")
 sentence_structures['roads']['frequency'] = 3000
 
 idx = random.randrange(0, len(greeting))
