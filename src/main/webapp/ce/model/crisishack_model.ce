@@ -57,6 +57,10 @@ conceptualise a ~ person ~ P that
   is an agent and
   is a spatial thing.
 
+conceptualise a ~ real person ~ RP that
+  is a person and
+  has the value IR as ~ is real ~.
+
 conceptualise a ~ message ~ M that
   ~ is from ~ the agent A1 and
   ~ is to ~ the agent A2 and
@@ -82,4 +86,4 @@ conceptualise a ~ layer ~ L that
   has the value CN as ~ concept name ~.
 
 conceptualise a ~ crisis type ~ CT that
-  is a renderable thing. 
+  is a renderable thing.
