@@ -3,3 +3,33 @@ for which M, MT and EC is it true that
   ( the message M has the value MT as message text ) and
   ( the message M is about the entity concept EC )
 .
+
+[ illness messages ]
+for which M is it true that
+  ( the categorised message M is about the entity concept 'illness' )
+.
+
+[ sanitation messages ]
+for which M is it true that
+  ( the categorised message M is about the entity concept 'sanitation' )
+.
+
+[ community messages ]
+for which M is it true that
+  ( the categorised message M is about the entity concept 'community' )
+.
+
+[ damage messages ]
+for which M is it true that
+  ( the categorised message M is about the entity concept 'damage' )
+.
+
+[ family messages ]
+for which M is it true that
+  ( the categorised message M is about the entity concept 'family' )
+.
+
+[ route messages ]
+for which M is it true that
+  ( the categorised message M is about the entity concept 'route' )
+.
