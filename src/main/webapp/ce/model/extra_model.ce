@@ -3,9 +3,11 @@ conceptualise a ~ toilet ~ T.
 conceptualise a ~ community ~ C.
 conceptualise a ~ damage ~ D.
 conceptualise a ~ family ~ F.
+conceptualise a ~ route ~ R.
 
 the entity concept 'community'
   is expressed by ' village' and
+  is expressed by ' market' and
   is expressed by ' town'.
 
 the entity concept 'illness'
@@ -30,9 +32,15 @@ the entity concept 'toilet'
 the entity concept 'damage'
   is expressed by ' broken' and
   is expressed by ' pothole' and
+  is expressed by ' repair' and
   is expressed by ' bust'.
 
 the entity concept 'social'
   is expressed by ' brother' and
   is expressed by ' sister' and
   is expressed by ' mum'.
+
+the entity concept 'route'
+  is expressed by ' path' and
+  is expressed by ' track' and
+  is expressed by ' road'.
