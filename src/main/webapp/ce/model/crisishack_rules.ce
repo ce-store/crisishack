@@ -49,7 +49,7 @@ then
 
 [ real people ]
 if
-  ( there is a real person P )
+  ( there is a real person named P )
 then
   ( the real person P has 'true' as is real )
 .
