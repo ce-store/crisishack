@@ -67,3 +67,7 @@ conceptualise a ~ conversation ~ C that
   is a spatial thing and
   ~ includes ~ the agent A and
   has the message M as ~ message ~.
+
+conceptualise a ~ layer ~ L that
+  has the value LN as ~ layer name ~ and
+  has the value CN as ~ concept name ~.
