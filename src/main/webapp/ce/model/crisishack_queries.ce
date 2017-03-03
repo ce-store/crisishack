@@ -1,0 +1,5 @@
+[ entity types - synonyms ]
+for which M, MT and EC is it true that
+  ( the message M has the value MT as message text ) and
+  ( the message M is about the entity concept EC )
+.
