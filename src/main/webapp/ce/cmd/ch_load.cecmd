@@ -4,6 +4,7 @@
 -- --------------------------------------------------------------------------
 
 perform reset store with starting uid '1'.
+perform set 'autorun rules' to 'true'.
 
 -- Load the general model (core concepts)
 --perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/agents/agent_model.ce'.
@@ -24,4 +25,3 @@ perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/s
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_locations.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_numbers.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/messages.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/conversations.ce'.

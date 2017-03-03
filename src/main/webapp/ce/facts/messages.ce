@@ -9,3 +9,27 @@ there is a message named 'msg_2' that
   is to the person 'person.12' and
   has '1488626910' as timestamp and
   has 'Thank you for your message' as message text.
+
+there is a message named 'msg_3' that
+  is from the person 'person.13' and
+  is to the agency 'SafariCom' and
+  has '1488621910' as timestamp and
+  has 'Text message 13' as message text.
+
+there is a message named 'msg_4' that
+  is from the agency 'SafariCom' and
+  is to the person 'person.13' and
+  has '1488626910' as timestamp and
+  has 'Nice one!' as message text.
+
+there is a message named 'msg_5' that
+  is from the person 'person.14' and
+  is to the agency 'SafariCom' and
+  has '1488621910' as timestamp and
+  has 'Text message 14' as message text.
+
+there is a message named 'msg_6' that
+  is from the agency 'SafariCom' and
+  is to the person 'person.14' and
+  has '1488626910' as timestamp and
+  has 'That\'s lovely, thank you' as message text.
