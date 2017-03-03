@@ -53,3 +53,17 @@ if
 then
   ( the real person P has 'true' as is real )
 .
+
+[ entity types - core ]
+for which M and MT is it true that
+  ( the message M has the value MT as message text ) and
+  ( there is an entity concept named ET ) and
+  ( the value MT contains the value ET )
+.
+
+[ entity types - synonyms ]
+for which M and MT is it true that
+  ( the message M has the value MT as message text ) and
+  ( the entity concept ET is expressed by the value E ) and
+  ( the value MT contains the value E )
+.
