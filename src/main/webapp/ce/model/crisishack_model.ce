@@ -66,7 +66,8 @@ conceptualise a ~ message ~ M that
   ~ is to ~ the agent A2 and
   has the value TS as ~ timestamp ~ and
   has the value MT as ~ message text ~ and
-  ~ came from ~ the sms message SM.
+  ~ came from ~ the sms message SM and
+  ~ is about ~ the entity concept E.
 
 conceptualise a ~ conversation ~ C that
   is a spatial thing and
