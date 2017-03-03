@@ -32,9 +32,17 @@ then
 
 [ message from sms ]
 if
-  ( the sms message S is from the number N ) and
-  ( the person P has the number N as telephone number )
+  ( the sms message S is from the number N1 ) and
+  ( the sms message S is to the number N2 ) and
+  ( the sms message S has the value TS as timestamp ) and
+  ( the sms message S has the value MT as message text ) and
+  ( the person P1 has the number N1 as telephone number ) and
+  ( the person P2 has the number N1 as telephone number )
 then
   ( there is a message named M_#msg_-$S ) and
-  ( the message M is from the person P )
+  ( the message M is from the person P1 ) and
+  ( the message M is to the person P2 ) and
+  ( the message M has the value TS as timestamp ) and
+  ( the message M has the value MT as message text ) and
+  ( the message M came from the sms message S )
 .

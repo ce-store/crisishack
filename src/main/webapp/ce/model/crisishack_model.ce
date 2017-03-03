@@ -46,22 +46,23 @@ conceptualise a ~ dataset ~ D that
 conceptualise a ~ geojson dataset ~ D that
   is a dataset.
 
-conceptualise an ~ agent ~ A.
+conceptualise an ~ agent ~ A that
+  has the number TN as ~ telephone number ~ and
+  has the value UU as ~ UUID ~.
 
 conceptualise an ~ agency ~ A that
   is an agent.
 
 conceptualise a ~ person ~ P that
   is an agent and
-  is a spatial thing and
-  has the number TN as ~ telephone number ~ and
-  has the value UU as ~ UUID ~.
+  is a spatial thing.
 
 conceptualise a ~ message ~ M that
   ~ is from ~ the agent A1 and
   ~ is to ~ the agent A2 and
   has the value TS as ~ timestamp ~ and
-  has the value MT as ~ message text ~.
+  has the value MT as ~ message text ~ and
+  ~ came from ~ the sms message SM.
 
 conceptualise a ~ conversation ~ C that
   is a spatial thing and
