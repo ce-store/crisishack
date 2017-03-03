@@ -1,2 +1,9 @@
-there is a message named 'msg_1' that is from the person 'person.1' and is to the person 'SafariCom' and has '1488621910' as timestamp and has 'Text message 1' as message text.
-there is a message named 'msg_2' that is from the person 'SafariCom' and is to the person 'person.1' and has '1488626910' as timestamp and has 'Thank you for your message' as message text.
+there is a conversation named 'conv_1' that
+  includes the person 'person.12' and
+  includes the person 'SafariCom' and
+  has the message 'msg_1' as message.
+
+there is a conversation named 'conv_1' that
+  includes the person 'SafariCom' and
+  includes the person 'person.12' and
+  has the message 'msg_2' as message.

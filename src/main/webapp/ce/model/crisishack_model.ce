@@ -56,3 +56,8 @@ conceptualise a ~ message ~ M that
   ~ is to ~ the person P2 and
   has the value TS as ~ timestamp ~ and
   has the value MT as ~ message text ~.
+
+conceptualise a ~ conversation ~ C that
+  is a spatial thing and
+  ~ includes ~ the person P and
+  has the message M as ~ message ~.

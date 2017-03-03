@@ -13,6 +13,7 @@ perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src
 
 -- Load the CrisisHack model
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_model.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_rules.ce'.
 
 -- Load the data
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/metamodel.ce'.
@@ -22,4 +23,5 @@ perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/s
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/special_people.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_locations.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_numbers.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/messages.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/conversations.ce'.

@@ -1,0 +1,9 @@
+[ conv lat-lon ]
+if
+  ( the conversation C includes the person P ) and
+  ( the person P has the value LAT as latitude ) and
+  ( the person P has the value LON as longitude )
+then
+  ( the conversation C has the value LAT as latitude ) and
+  ( the conversation C has the value LON as longitude )
+.
