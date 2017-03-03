@@ -1,5 +1,5 @@
 conceptualise an ~ illness ~ I.
-conceptualise a ~ sanitation ~ S.
+-- conceptualise a ~ sanitation ~ S.
 conceptualise a ~ community ~ C.
 conceptualise a ~ damage ~ D.
 conceptualise a ~ family ~ F.
@@ -22,13 +22,13 @@ the entity concept 'illness'
   is expressed by ' nauseous' and
   is expressed by ' unwell'.
 
-the entity concept 'sanitation'
-  is expressed by ' toilet' and
-  is expressed by ' bathroom' and
-  is expressed by ' restroom' and
-  is expressed by ' bog' and
-  is expressed by ' WC' and
-  is expressed by ' water closet'.
+-- the entity concept 'sanitation'
+--  is expressed by ' toilet' and
+--  is expressed by ' bathroom' and
+--  is expressed by ' restroom' and
+--  is expressed by ' bog' and
+--  is expressed by ' WC' and
+--  is expressed by ' water closet'.
 
 the entity concept 'damage'
   is expressed by ' broken' and
