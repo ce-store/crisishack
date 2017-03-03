@@ -36,12 +36,12 @@ if
   ( the sms message S is to the number N2 ) and
   ( the sms message S has the value TS as timestamp ) and
   ( the sms message S has the value MT as message text ) and
-  ( the person P1 has the number N1 as telephone number ) and
-  ( the person P2 has the number N2 as telephone number )
+  ( the agent A1 has the number N1 as telephone number ) and
+  ( the agent A2 has the number N2 as telephone number )
 then
   ( there is a message named M_$P1_#msg_-$S ) and
-  ( the message M is from the person P1 ) and
-  ( the message M is to the person P2 ) and
+  ( the message M is from the agent A1 ) and
+  ( the message M is to the agent A2 ) and
   ( the message M has the value TS as timestamp ) and
   ( the message M has the value MT as message text ) and
   ( the message M came from the sms message S )
