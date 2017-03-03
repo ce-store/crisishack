@@ -69,6 +69,8 @@ conceptualise a ~ message ~ M that
   ~ came from ~ the sms message SM and
   ~ is about ~ the entity concept E.
 
+conceptualise a ~ categorised message ~ M that is a message.
+
 conceptualise a ~ conversation ~ C that
   is a spatial thing and
   ~ includes ~ the agent A and

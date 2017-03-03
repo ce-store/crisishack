@@ -69,5 +69,5 @@ if
   ( the entity concept EC is expressed by the value E ) and
   ( the value MT contains the value E )
 then
-  ( the message M is about the entity concept EC )
+  ( the categorised message M is about the entity concept EC )
 .
