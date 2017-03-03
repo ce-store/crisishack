@@ -3,6 +3,9 @@
 the renderable thing 'person'
   has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/person.png' as icon file name.
 
+the renderable thing 'conversation'
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/conversation.png' as icon file name.
+
 the renderable thing 'community care centre'
   has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/community_care_centre.png' as icon file name.
 
