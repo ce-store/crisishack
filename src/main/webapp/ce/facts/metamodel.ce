@@ -20,3 +20,8 @@ the renderable thing 'transmission tower'
 
 the renderable thing 'point of interest'
   has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/icons/point_of_interest.png' as icon file name.
+
+there is a spatial view named 'Freetown North' that
+  has '8.47616036' as latitude and
+  has '-13.26691663' as longitude and
+  has '14' as zoom factor.
