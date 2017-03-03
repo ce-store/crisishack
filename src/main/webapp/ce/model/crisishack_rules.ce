@@ -7,3 +7,27 @@ then
   ( the conversation C has the value LAT as latitude ) and
   ( the conversation C has the value LON as longitude )
 .
+
+[ infer conversations A ]
+if
+  ( the message M is from the person P1 ) and
+  ( the message M is to the person P2 ) and
+  ( the value P1 != 'SafariCom' )
+then
+  ( there is a conversation named C_$P1_#-_$P2 ) and
+  ( the conversation C includes the person P1 ) and
+  ( the conversation C includes the person P2 ) and
+  ( the conversation C has the message M as message )
+.
+
+[ infer conversations B ]
+if
+  ( the message M is from the person P1 ) and
+  ( the message M is to the person P2 ) and
+  ( the value P2 != 'SafariCom' )
+then
+  ( there is a conversation named C_$P2_#-_$P1 ) and
+  ( the conversation C includes the person P1 ) and
+  ( the conversation C includes the person P2 ) and
+  ( the conversation C has the message M as message )
+.
