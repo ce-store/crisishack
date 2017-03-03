@@ -20,7 +20,7 @@ perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/s
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/datasets.ce'.
 
 -- Load the simulated data
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/special_people.ce'.
+perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/agencies.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_locations.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_numbers.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/messages.ce'.

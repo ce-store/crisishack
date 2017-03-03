@@ -10,24 +10,22 @@ then
 
 [ infer conversations A ]
 if
-  ( the message M is from the person P1 ) and
-  ( the message M is to the person P2 ) and
-  ( the value P1 != 'SafariCom' )
+  ( the message M is from the person P ) and
+  ( the message M is to the agency A )
 then
-  ( there is a conversation named C_$P1_#-_$P2 ) and
-  ( the conversation C includes the person P1 ) and
-  ( the conversation C includes the person P2 ) and
+  ( there is a conversation named C_$P_#-_$A ) and
+  ( the conversation C includes the person P ) and
+  ( the conversation C includes the agency A ) and
   ( the conversation C has the message M as message )
 .
 
 [ infer conversations B ]
 if
-  ( the message M is from the person P1 ) and
-  ( the message M is to the person P2 ) and
-  ( the value P2 != 'SafariCom' )
+  ( the message M is to the person P ) and
+  ( the message M is from the agency A )
 then
-  ( there is a conversation named C_$P2_#-_$P1 ) and
-  ( the conversation C includes the person P1 ) and
-  ( the conversation C includes the person P2 ) and
+  ( there is a conversation named C_$P_#-_$A ) and
+  ( the conversation C includes the person P ) and
+  ( the conversation C includes the agency A ) and
   ( the conversation C has the message M as message )
 .

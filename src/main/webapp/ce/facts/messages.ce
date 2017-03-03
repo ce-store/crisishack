@@ -1,11 +1,11 @@
 there is a message named 'msg_1' that
-  is from the person 'person.1' and
-  is to the person 'SafariCom' and
+  is from the person 'person.12' and
+  is to the agency 'SafariCom' and
   has '1488621910' as timestamp and
   has 'Text message 12' as message text.
 
 there is a message named 'msg_2' that
-  is from the person 'SafariCom' and
+  is from the agency 'SafariCom' and
   is to the person 'person.12' and
   has '1488626910' as timestamp and
   has 'Thank you for your message' as message text.
