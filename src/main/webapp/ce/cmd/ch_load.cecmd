@@ -7,7 +7,7 @@ perform reset store with starting uid '1'.
 perform set 'autorun rules' to 'true'.
 
 -- Load the general model (core concepts)
-perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/hudson/ce/core/cmd/load_core.cecmd'.
+perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/hudson/ce/core/cmd/load_core.cecmd'.
 perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/model/misc_model.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/model/spatial_model.ce'.
 perform load sentences from url 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/ce/general/model/temporal_model.ce'.
