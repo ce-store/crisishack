@@ -54,7 +54,7 @@ conceptualise an ~ agency ~ A that
 conceptualise a ~ person ~ P that
   is an agent and
   is a spatial thing and
-  has the value TN as ~ telephone number ~ and
+  has the number TN as ~ telephone number ~ and
   has the value UU as ~ UUID ~.
 
 conceptualise a ~ message ~ M that
@@ -67,6 +67,14 @@ conceptualise a ~ conversation ~ C that
   is a spatial thing and
   ~ includes ~ the agent A and
   has the message M as ~ message ~.
+
+conceptualise a ~ number ~ N.
+
+conceptualise an ~ sms message ~ S that
+  ~ is from ~ the number N1 and
+  ~ is to ~ the number N2 and
+  has the value TS as ~ timestamp ~ and
+  has the value MT as ~ message text ~.
 
 conceptualise a ~ layer ~ L that
   has the value LN as ~ layer name ~ and
