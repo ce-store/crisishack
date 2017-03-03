@@ -29,3 +29,12 @@ then
   ( the conversation C includes the agency A ) and
   ( the conversation C has the message M as message )
 .
+
+[ message from sms ]
+if
+  ( the sms message S is from the number N ) and
+  ( the person P has the number N as telephone number )
+then
+  ( there is a message named M_#msg_-$S ) and
+  ( the message M is from the person P )
+.
