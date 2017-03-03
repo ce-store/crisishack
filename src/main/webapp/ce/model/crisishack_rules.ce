@@ -39,7 +39,7 @@ if
   ( the person P1 has the number N1 as telephone number ) and
   ( the person P2 has the number N1 as telephone number )
 then
-  ( there is a message named M_#msg_-$S ) and
+  ( there is a message named M_$P1_#msg_-$S ) and
   ( the message M is from the person P1 ) and
   ( the message M is to the person P2 ) and
   ( the message M has the value TS as timestamp ) and
