@@ -5,6 +5,7 @@
 
 perform reset store with starting uid '1'.
 perform set 'autorun rules' to 'true'.
+
 perform set 'ce root' to 'https://rawgit.com/ce-store/ce-store/master/src/main/webapp/'.
 
 -- Load the general model (core concepts)
@@ -13,18 +14,20 @@ perform load sentences from url '/ce/general/model/misc_model.ce'.
 perform load sentences from url '/ce/general/model/spatial_model.ce'.
 perform load sentences from url '/ce/general/model/temporal_model.ce'.
 
+perform set 'ce root' to 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/'.
+
 -- Load the CrisisHack model
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_model.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/extra_model.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/model/crisishack_rules.ce'.
+perform load sentences from url '/ce/model/crisishack_model.ce'.
+perform load sentences from url '/ce/model/extra_model.ce'.
+perform load sentences from url '/ce/model/crisishack_rules.ce'.
 
 -- Load the data
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/metamodel.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/datasets.ce'.
+perform load sentences from url '/ce/facts/metamodel.ce'.
+perform load sentences from url '/ce/facts/datasets.ce'.
 
 -- Load the simulated data
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/layers.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/agencies.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_locations.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/people_numbers.ce'.
-perform load sentences from url 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/ce/facts/messages.ce'.
+perform load sentences from url '/ce/facts/layers.ce'.
+perform load sentences from url '/ce/facts/agencies.ce'.
+perform load sentences from url '/ce/facts/people_locations.ce'.
+perform load sentences from url '/ce/facts/people_numbers.ce'.
+perform load sentences from url '/ce/facts/messages.ce'.
