@@ -39,3 +39,8 @@ for which C and M is it true that
   ( the categorised message M is about the entity concept 'route' ) and
   ( the conversation C has the message M as message )
 .
+
+[conversation including person]
+for which V1 and V2 is it true that
+   ( the conversation V2 includes the person V1 )
+.
