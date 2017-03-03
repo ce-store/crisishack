@@ -55,15 +55,19 @@ then
 .
 
 [ entity types - core ]
-for which M and MT is it true that
+if
   ( the message M has the value MT as message text ) and
-  ( there is an entity concept named ET ) and
-  ( the value MT contains the value ET )
+  ( there is an entity concept named EC ) and
+  ( the value MT contains the value EC )
+then
+  ( the message M is about the entity concept EC )
 .
 
 [ entity types - synonyms ]
-for which M and MT is it true that
+if
   ( the message M has the value MT as message text ) and
-  ( the entity concept ET is expressed by the value E ) and
+  ( the entity concept EC is expressed by the value E ) and
   ( the value MT contains the value E )
+then
+  ( the message M is about the entity concept EC )
 .
