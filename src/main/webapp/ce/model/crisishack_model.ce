@@ -6,6 +6,10 @@ conceptualise a ~ hospital ~ H that
   is a place and
   has the media P as ~ picture ~.
 
+conceptualise a ~ geojson property ~ G that
+  has the value C as ~ contents and
+  ~ corresponds to ~ the spatial thing S.
+
 conceptualise a ~ community care centre ~ C that
   is a hospital.
 

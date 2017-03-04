@@ -76,7 +76,7 @@
     "type": "function",
     "z": "fed3df8f.762cb",
     "name": "Generate CE",
-    "func": "msg.ce = \"\";\n\nif (msg.payload.features == null) {\nfor (i = 0; i < msg.payload.length; i++) { \n  var feature = msg.payload[i];\n  var lat = feature.row.Y;\n  var lon = feature.row.X;\n  var id = feature.row.instance;\n  \n  if (id == null) {\n    id = \"{uid}\";\n  }\n\n  msg.ce += \"there is a \";\n  msg.ce += msg.properties.concept + \" named '\";\n  msg.ce += id;\n  msg.ce += \"' that\\n\";\n  msg.ce += \"  has '\" + lat + \"' as latitude and\\n\";\n  msg.ce += \"  has '\" + lon + \"' as longitude\";\n  msg.ce += \".\";\n  msg.ce += \"\\n\\n\";\n}\n} else {\nfor (i = 0; i < msg.payload.features.length; i++) { \n  var feature = msg.payload.features[i];\n  var lat = feature.geometry.coordinates[1];\n  var lon = feature.geometry.coordinates[0];\n  var id = feature.id;\n  \n  if (id == null) {\n    if (feature.properties != null) {\n      id = feature.properties.id;\n    } else {\n      id = \"{uid}\";\n    }\n  }\n\n  msg.ce += \"there is a \";\n  msg.ce += msg.properties.concept + \" named '\";\n  msg.ce += id;\n  msg.ce += \"' that\\n\";\n  msg.ce += \"  has '\" + lat + \"' as latitude and\\n\";\n  msg.ce += \"  has '\" + lon + \"' as longitude\";\n  msg.ce += \".\";\n  msg.ce += \"\\n\\n\";\n}\n}\n\nif (msg.properties.cestore != null) {\n  msg.url = msg.properties.cestore;\n} else {\n  msg.url = \"http://ce-crisishack.eu-gb.mybluemix.net/ce-store/sentences\";\n}\n\nmsg.payload = msg.ce;\n\nreturn msg;",
+    "func": "msg.ce = \"\";\n\nif (msg.payload.features == null) {\n  for (i = 0; i < msg.payload.length; i++) { \n    var feature = msg.payload[i];\n    var lat = feature.row.Y;\n    var lon = feature.row.X;\n    var id = feature.row.instance;\n  \n    if (id == null) {\n      id = \"{uid}\";\n    }\n\n    msg.ce += \"there is a \";\n    msg.ce += msg.properties.concept + \" named '\";\n    msg.ce += id;\n    msg.ce += \"' that\\n\";\n    msg.ce += \"  has '\" + lat + \"' as latitude and\\n\";\n    msg.ce += \"  has '\" + lon + \"' as longitude\";\n    msg.ce += \".\";\n    msg.ce += \"\\n\\n\";\n  }\n} else {\n  for (i = 0; i < msg.payload.features.length; i++) { \n    var feature = msg.payload.features[i];\n    var lat = feature.geometry.coordinates[1];\n    var lon = feature.geometry.coordinates[0];\n    var id = feature.id;\n  \n    if (id == null) {\n      if (feature.properties != null) {\n        id = feature.properties.id;\n      } else {\n        id = \"{uid}\";\n      }\n    }\n\n    msg.ce += \"there is a \";\n    msg.ce += msg.properties.concept + \" named '\";\n    msg.ce += id;\n    msg.ce += \"' that\\n\";\n    msg.ce += \"  has '\" + lat + \"' as latitude and\\n\";\n    msg.ce += \"  has '\" + lon + \"' as longitude\";\n    msg.ce += \".\";\n    msg.ce += \"\\n\\n\";\n\n    for (var key in feature.properties) {\n      var propVal = feature.properties[key];\n      var propId = id + \"-\" + key;\n\n      msg.ce += \"there is a geojson property named '\";\n      msg.ce += propId;\n      msg.ce += \" that\\n\";\n      msg.ce += \"  has '\";\n      msg.ce += propVal;\n      msg.ce += \"' as contents and\\n\";\n      msg.ce += \"  corresponds to the \";\n      msg.ce += msg.properties.concept;\n      msg.ce += \" '\";\n      msg.ce += id;\n      msg.ce += \"'\";\n      msg.ce += \".\\n\\n\";\n    }\n  }\n}\n\nif (msg.properties.cestore != null) {\n  msg.url = msg.properties.cestore;\n} else {\n  msg.url = \"http://ce-crisishack.eu-gb.mybluemix.net/ce-store/sentences\";\n}\n\nmsg.payload = msg.ce;\n\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
     "x": 506,
@@ -104,8 +104,8 @@
     "ret": "txt",
     "url": "",
     "tls": "",
-    "x": 614,
-    "y": 265,
+    "x": 637,
+    "y": 289,
     "wires": [
         ["5c640fb9.9910f", "e4fd2ca3.3ca2a"]
     ]
@@ -114,8 +114,8 @@
     "type": "http response",
     "z": "fed3df8f.762cb",
     "name": "",
-    "x": 734,
-    "y": 315,
+    "x": 797,
+    "y": 365,
     "wires": []
 }, {
     "id": "e4fd2ca3.3ca2a",
