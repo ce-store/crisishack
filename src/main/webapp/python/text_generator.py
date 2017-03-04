@@ -46,8 +46,8 @@ sentence_structures['water']['verbs'] = ("is broken","is not working","is contam
 sentence_structures['water']['frequency'] = 3000
 
 sentence_structures['heat']['subject'] = ("","")
-sentence_structures['heat']['nouns'] = ("I am ", "My brother", "My sister", "My mother", "My father", "The priest", "The Imam", "My friend", "My wife", "My husband")
-sentence_structures['heat']['verbs'] = (,"","","")
+sentence_structures['heat']['nouns'] = ("I", "My brother", "My sister", "My mother", "My father", "The priest", "The Imam", "My friend", "My wife", "My husband")
+sentence_structures['heat']['verbs'] = ("","")
 #adv = ("sick", "ill", "in pain", , "barfs") 
 sentence_structures['heat']['adj'] = ("is overheating", "is dehydrated", "has collapsed", "collapsed from heat", "has a fever", "is exhausted", "collapsed from overheating") 
 sentence_structures['heat']['frequency'] = 1000
@@ -65,7 +65,7 @@ for key in sentence_structures.keys():
                                          random.choice(sentence_structures[key]['nouns']),
                                          random.choice(sentence_structures[key]['adj']),
                                          random.choice(sentence_structures[key]['verbs']))
-        sentences.append(sentence)
+        sentences.append(sentence.strip())
 
 random.shuffle(sentences)
 corpus = "\n".join(sentences)
