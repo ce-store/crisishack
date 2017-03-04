@@ -71,3 +71,10 @@ if
 then
   ( the categorised message M is about the entity concept EC )
 .
+
+[ link sms to message ]
+if
+  ( the message M came from the sms message S )
+then
+  ( the sms message S led to the message M )
+.

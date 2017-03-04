@@ -94,7 +94,8 @@ conceptualise an ~ sms message ~ S that
   ~ is from ~ the number N1 and
   ~ is to ~ the number N2 and
   has the value TS as ~ timestamp ~ and
-  has the value MT as ~ message text ~.
+  has the value MT as ~ message text ~ and
+  ~ led to ~ the message M.
 
 conceptualise a ~ layer ~ L that
   has the value LN as ~ layer name ~ and
