@@ -14,3 +14,5 @@ perform load sentences from url '/ce/cached/regional_points_of_interest.ce'.
 perform load sentences from url '/ce/cached/sierra_leone_community_centres.ce'.
 perform load sentences from url '/ce/cached/sierra_leone_ebola_treatment_units.ce'.
 perform load sentences from url '/ce/cached/sierra_leone_health_facilities.ce'.
+perform load sentences from url '/ce/cached/sierra_leone_airports.ce'.
+perform load sentences from url '/ce/cached/sierra_leone_water_points.ce'.

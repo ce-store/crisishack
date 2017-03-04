@@ -1,0 +1,54 @@
+-- Extracted from https://rawgit.com/ce-store/crisishack/master/src/main/webapp/data/sierra-leone-airport-locations.geojson
+
+-- Source: src_043 (all sentences)
+-- Source type: Form
+-- Creation date: 1488615887434
+-- Detail: add sentences
+
+there is a sierra leone airport named '308901' that
+  has '8.473990572' as latitude and
+  has '-13.27764273' as longitude.
+
+there is a sierra leone airport named '308902' that
+  has '8.487684737' as latitude and
+  has '-13.28810334' as longitude.
+
+there is a sierra leone airport named '3095' that
+  has '8.616439819' as latitude and
+  has '-13.19550037' as longitude.
+
+there is a sierra leone airport named '31741' that
+  has '7.891290188' as latitude and
+  has '-11.17660046' as longitude.
+
+there is a sierra leone airport named '32689' that
+  has '8.610469818' as latitude and
+  has '-11.04539967' as longitude.
+
+there is a sierra leone airport named '31728' that
+  has '7.944399834' as latitude and
+  has '-11.76099968' as longitude.
+
+there is a sierra leone airport named '30799' that
+  has '7.532420158' as latitude and
+  has '-12.51889992' as longitude.
+
+there is a sierra leone airport named '31526' that
+  has '8.217000008' as latitude and
+  has '-11.06700039' as longitude.
+
+there is a sierra leone airport named '31721' that
+  has '9.638322913' as latitude and
+  has '-11.51556015' as longitude.
+
+there is a sierra leone airport named '31517' that
+  has '7.767000198' as latitude and
+  has '-12.38300037' as longitude.
+
+there is a sierra leone airport named '31525' that
+  has '8.397130013' as latitude and
+  has '-13.12909985' as longitude.
+
+there is a sierra leone airport named '301111' that
+  has '8.492311249' as latitude and
+  has '-13.28845739' as longitude.

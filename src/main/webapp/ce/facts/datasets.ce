@@ -35,5 +35,5 @@ there is a geojson dataset named 'ds_007' that
 
 there is a geojson dataset named 'ds_008' that
   has 'Sierra Leone Water Points (2012)' as description and
-  has 'sierra leone water points' as concept name and
+  has 'sierra leone water point' as concept name and
   has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/data/sierra-leone-water-points-2012.geojson' as url.
