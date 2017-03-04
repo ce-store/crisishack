@@ -1,54 +1,617 @@
 -- Extracted from https://rawgit.com/ce-store/crisishack/master/src/main/webapp/data/sierra-leone-airport-locations.geojson
 
--- Source: src_043 (all sentences)
--- Source type: Form
--- Creation date: 1488615887434
--- Detail: add sentences
-
-there is a sierra leone airport named '308901' that
-  has '8.473990572' as latitude and
-  has '-13.27764273' as longitude.
-
-there is a sierra leone airport named '308902' that
-  has '8.487684737' as latitude and
-  has '-13.28810334' as longitude.
-
 there is a sierra leone airport named '3095' that
   has '8.616439819' as latitude and
   has '-13.19550037' as longitude.
+
+there is a geojson property named '3095-id that
+  has '3095' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-ident that
+  has 'GFLL' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-type that
+  has 'medium_airport' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-name that
+  has 'Lungi International Airport' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-elevation_ft that
+  has '84' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-iso_region that
+  has 'SL-N' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-municipality that
+  has 'Freetown' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-scheduled_service that
+  has '1' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-gps_code that
+  has 'GFLL' as contents and
+  corresponds to the sierra leone airport '3095'.
+
+there is a geojson property named '3095-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '3095'.
 
 there is a sierra leone airport named '31741' that
   has '7.891290188' as latitude and
   has '-11.17660046' as longitude.
 
+there is a geojson property named '31741-id that
+  has '31741' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-ident that
+  has 'GFKE' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-type that
+  has 'medium_airport' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-name that
+  has 'Kenema Airport' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-elevation_ft that
+  has '485' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-iso_region that
+  has 'SL-E' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-municipality that
+  has 'Kenema' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-scheduled_service that
+  has '1' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-gps_code that
+  has 'GFKE' as contents and
+  corresponds to the sierra leone airport '31741'.
+
+there is a geojson property named '31741-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '31741'.
+
 there is a sierra leone airport named '32689' that
   has '8.610469818' as latitude and
   has '-11.04539967' as longitude.
+
+there is a geojson property named '32689-id that
+  has '32689' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-ident that
+  has 'GFYE' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-type that
+  has 'medium_airport' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-name that
+  has 'Yengema Airport' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-elevation_ft that
+  has '1300' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-iso_region that
+  has 'SL-E' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-municipality that
+  has 'Yengema' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-scheduled_service that
+  has '1' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-gps_code that
+  has 'GFYE' as contents and
+  corresponds to the sierra leone airport '32689'.
+
+there is a geojson property named '32689-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '32689'.
 
 there is a sierra leone airport named '31728' that
   has '7.944399834' as latitude and
   has '-11.76099968' as longitude.
 
+there is a geojson property named '31728-id that
+  has '31728' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-ident that
+  has 'GFBO' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-type that
+  has 'medium_airport' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-name that
+  has 'Bo Airport' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-elevation_ft that
+  has '328' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-iso_region that
+  has 'SL-S' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-municipality that
+  has 'Bo' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-scheduled_service that
+  has '1' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-gps_code that
+  has 'GFBO' as contents and
+  corresponds to the sierra leone airport '31728'.
+
+there is a geojson property named '31728-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '31728'.
+
 there is a sierra leone airport named '30799' that
   has '7.532420158' as latitude and
   has '-12.51889992' as longitude.
+
+there is a geojson property named '30799-id that
+  has '30799' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-ident that
+  has 'GFBN' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-type that
+  has 'medium_airport' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-name that
+  has 'Sherbro International Airport' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-elevation_ft that
+  has '14' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-iso_region that
+  has 'SL-S' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-municipality that
+  has 'Bonthe' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-scheduled_service that
+  has '1' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-gps_code that
+  has 'GFBN' as contents and
+  corresponds to the sierra leone airport '30799'.
+
+there is a geojson property named '30799-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '30799'.
 
 there is a sierra leone airport named '31526' that
   has '8.217000008' as latitude and
   has '-11.06700039' as longitude.
 
+there is a geojson property named '31526-id that
+  has '31526' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-ident that
+  has 'GFTO' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-type that
+  has 'small_airport' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-name that
+  has 'Tongo Airport' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-elevation_ft that
+  has '750' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-iso_region that
+  has 'SL-E' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-municipality that
+  has 'Tongo' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-gps_code that
+  has 'GFTO' as contents and
+  corresponds to the sierra leone airport '31526'.
+
+there is a geojson property named '31526-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '31526'.
+
 there is a sierra leone airport named '31721' that
   has '9.638322913' as latitude and
   has '-11.51556015' as longitude.
+
+there is a geojson property named '31721-id that
+  has '31721' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-ident that
+  has 'GFKB' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-type that
+  has 'small_airport' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-name that
+  has 'Kabala Airport' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-elevation_ft that
+  has '1012' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-iso_region that
+  has 'SL-N' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-municipality that
+  has 'Kabala' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-gps_code that
+  has 'GFKB' as contents and
+  corresponds to the sierra leone airport '31721'.
+
+there is a geojson property named '31721-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '31721'.
 
 there is a sierra leone airport named '31517' that
   has '7.767000198' as latitude and
   has '-12.38300037' as longitude.
 
+there is a geojson property named '31517-id that
+  has '31517' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-ident that
+  has 'GFGK' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-type that
+  has 'small_airport' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-name that
+  has 'Gbangbatok Airport' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-elevation_ft that
+  has '75' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-iso_region that
+  has 'SL-S' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-municipality that
+  has 'Gbangbatok' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-gps_code that
+  has 'GFGK' as contents and
+  corresponds to the sierra leone airport '31517'.
+
+there is a geojson property named '31517-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '31517'.
+
 there is a sierra leone airport named '31525' that
   has '8.397130013' as latitude and
   has '-13.12909985' as longitude.
 
+there is a geojson property named '31525-id that
+  has '31525' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-ident that
+  has 'GFHA' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-type that
+  has 'small_airport' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-name that
+  has 'Hastings Airport' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-elevation_ft that
+  has '60' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-iso_region that
+  has 'SL-W' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-municipality that
+  has 'Freetown' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-gps_code that
+  has 'GFHA' as contents and
+  corresponds to the sierra leone airport '31525'.
+
+there is a geojson property named '31525-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '31525'.
+
 there is a sierra leone airport named '301111' that
   has '8.492311249' as latitude and
   has '-13.28845739' as longitude.
+
+there is a geojson property named '301111-id that
+  has '301111' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-ident that
+  has 'SL-0001' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-type that
+  has 'heliport' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-name that
+  has 'Mammy Yoko Heliport' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-elevation_ft that
+  has '' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-iso_region that
+  has 'SL-W' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-municipality that
+  has '' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-gps_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a geojson property named '301111-iata_code that
+  has 'JMY' as contents and
+  corresponds to the sierra leone airport '301111'.
+
+there is a sierra leone airport named '308901' that
+  has '8.473990572' as latitude and
+  has '-13.27764273' as longitude.
+
+there is a geojson property named '308901-id that
+  has '308901' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-ident that
+  has 'SL-0002' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-type that
+  has 'heliport' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-name that
+  has 'RSLAF Cockerill Barracks' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-elevation_ft that
+  has '' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-iso_region that
+  has 'SL-W' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-municipality that
+  has '' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-gps_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a geojson property named '308901-iata_code that
+  has '' as contents and
+  corresponds to the sierra leone airport '308901'.
+
+there is a sierra leone airport named '308902' that
+  has '8.487684737' as latitude and
+  has '-13.28810334' as longitude.
+
+there is a geojson property named '308902-id that
+  has '308902' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-ident that
+  has 'SL-0003' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-type that
+  has 'heliport' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-name that
+  has 'UN Aviation Heliport' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-elevation_ft that
+  has '' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-continent that
+  has 'AF' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-iso_country that
+  has 'SL' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-iso_region that
+  has 'SL-W' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-municipality that
+  has '' as contents and
+  corresponds to the sierra leone airport '308902'.
+
+there is a geojson property named '308902-scheduled_service that
+  has '0' as contents and
+  corresponds to the sierra leone airport '308902'.

@@ -32,6 +32,7 @@ perform load sentences from url '/ce/facts/agencies.ce'.
 perform load sentences from url '/ce/facts/people_locations.ce'.
 perform load sentences from url '/ce/facts/people_numbers.ce'.
 perform load sentences from url '/ce/facts/special_people.ce'.
+perform load sentences from url '/ce/facts/special_messages.ce'.
 perform load sentences from url '/ce/facts/messages.ce'.
 perform load sentences from url '/ce/facts/sms_messages.ce'.
 perform load sentences from url '/ce/facts/crisis_types.ce'.

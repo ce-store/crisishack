@@ -1,0 +1,83 @@
+there is a message named 'msg_sp_1a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Adrian' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_1b' that
+  is to the person 'Adrian' and
+  is from the agency 'SafariCom' and
+  has '1488764950' as timestamp and
+  has 'Round the corner, near the shops' as message text.
+
+there is a message named 'msg_sp_2a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Dan' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_2b' that
+  is to the person 'Dan' and
+  is from the agency 'SafariCom' and
+  has '1488764970' as timestamp and
+  has 'I can\t access clear water' as message text.
+
+there is a message named 'msg_sp_3a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Dave' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_3b' that
+  is to the person 'Perry' and
+  is from the agency 'SafariCom' and
+  has '1488764990' as timestamp and
+  has 'In my house' as message text.
+
+there is a message named 'msg_sp_4a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Perry' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_4b' that
+  is to the person 'Richard' and
+  is from the agency 'SafariCom' and
+  has '1488765020' as timestamp and
+  has 'I don\'t know' as message text.
+
+there is a message named 'msg_sp_5a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Richard' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_5b' that
+  is to the person 'Richard' and
+  is from the agency 'SafariCom' and
+  has '1488765030' as timestamp and
+  has 'What?' as message text.
+
+there is a message named 'msg_sp_6a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Rosie' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_6b' that
+  is to the person 'Rosie' and
+  is from the agency 'SafariCom' and
+  has '1488765050' as timestamp and
+  has 'Dude, stop texting me' as message text.
+
+there is a message named 'msg_sp_7a' that
+  is from the agency 'SafariCom' and
+  is to the person 'Sanaz' and
+  has '1488764910' as timestamp and
+  has 'Where is the nearest point you can access clear water?' as message text.
+
+there is a message named 'msg_sp_7b' that
+  is to the person 'Sanaz' and
+  is from the agency 'SafariCom' and
+  has '1488765070' as timestamp and
+  has 'I think near the market but haven\'t checked today' as message text.

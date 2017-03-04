@@ -1,9 +1,10 @@
-conceptualise an ~ illness ~ I.
--- conceptualise a ~ sanitation ~ S.
-conceptualise a ~ community ~ C.
-conceptualise a ~ damage ~ D.
-conceptualise a ~ family ~ F.
-conceptualise a ~ route ~ R.
+conceptualise a ~ detected thing ~ D.
+
+conceptualise an ~ illness ~ I that is a detected thing.
+conceptualise a ~ community ~ C that is a detected thing.
+conceptualise a ~ damage ~ D that is a detected thing.
+conceptualise a ~ family ~ F that is a detected thing.
+conceptualise a ~ route ~ R that is a detected thing.
 
 the entity concept 'community'
   is expressed by ' village' and
