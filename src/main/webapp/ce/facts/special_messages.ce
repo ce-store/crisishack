@@ -29,7 +29,7 @@ there is a message named 'msg_sp_3a' that
   has 'Where is the nearest point you can access clear water?' as message text.
 
 there is a message named 'msg_sp_3b' that
-  is from the person 'Perry' and
+  is from the person 'Dave' and
   is to the agency 'SafariCom' and
   has '1488764990' as timestamp and
   has 'In my house' as message text.
@@ -41,7 +41,7 @@ there is a message named 'msg_sp_4a' that
   has 'Where is the nearest point you can access clear water?' as message text.
 
 there is a message named 'msg_sp_4b' that
-  is from the person 'Richard' and
+  is from the person 'Perry' and
   is to the agency 'SafariCom' and
   has '1488765020' as timestamp and
   has 'I don\'t know' as message text.
@@ -53,19 +53,19 @@ there is a message named 'msg_sp_4c' that
   has 'Can you access clear water at all?' as message text.
 
 there is a message named 'msg_sp_4d' that
-  is from the person 'Richard' and
+  is from the person 'Perry' and
   is to the agency 'SafariCom' and
   has '1488765070' as timestamp and
   has 'Yes, in my house' as message text.
 
 there is a message named 'msg_sp_4e' that
-  is from the person 'Richard' and
+  is from the person 'Perry' and
   is to the agency 'SafariCom' and
   has '1488765090' as timestamp and
   has 'but it does taste a bit funny' as message text.
 
 there is a message named 'msg_sp_4f' that
-  is from the person 'Richard' and
+  is from the person 'Perry' and
   is to the agency 'SafariCom' and
   has '1488765090' as timestamp and
   has 'and it\'s got brown stuff in it' as message text.
