@@ -27,3 +27,13 @@ there is a geojson dataset named 'ds_006' that
   has 'Regional points of interest' as description and
   has 'point of interest' as concept name and
   has 'http://ebolageonode.org/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Areg_pois_pt_misc_govt_ngo_offices&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature' as url.
+
+there is a geojson dataset named 'ds_007' that
+  has 'Sierra Leone Airport Locations' as description and
+  has 'sierra leone airport' as concept name and
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/data/sierra-leone-airport-locations.geojson' as url.
+
+there is a geojson dataset named 'ds_008' that
+  has 'Sierra Leone Water Points (2012)' as description and
+  has 'sierra leone water points' as concept name and
+  has 'https://rawgit.com/ce-store/crisishack/master/src/main/webapp/data/sierra-leone-water-points-2012.geojson' as url.

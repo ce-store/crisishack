@@ -36,8 +36,16 @@ conceptualise a ~ liberia community care centre ~ C that
 conceptualise a ~ liberia ebola treatment unit ~ E that
   is an ebola treatment unit.
 
-  conceptualise a ~ liberia transmission tower ~ T that
-    is a transmission tower.
+conceptualise a ~ liberia transmission tower ~ T that
+  is a transmission tower.
+
+conceptualise an ~ airport ~ A that is a spatial thing.
+
+conceptualise a ~ sierra leone airport ~ A that is an airport.
+
+conceptualise a ~ water point ~ W that is a spatial thing.
+
+conceptualise a ~ sierra leone water point ~ W that is a water point.
 
 conceptualise a ~ dataset ~ D that
   has the value CN as ~ concept name ~ and
