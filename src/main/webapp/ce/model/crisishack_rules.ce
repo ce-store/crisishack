@@ -78,3 +78,26 @@ if
 then
   ( the sms message S led to the message M )
 .
+
+[ shadow person ]
+if
+  ( the sms message S led to no message M ) and
+  ( the sms message S is from the number N )
+then
+  ( there is a shadow person named P_#person-_$N ) and
+  ( the shadow person P has the number N as telephone number ) and
+  ( the shadow person P has the value '8.48933006' as latitude ) and
+  ( the shadow person P has the value '-13.28442264' as longitude )
+.
+
+--[ shadow person ]
+--if
+--  ( the sms message S led to no message M ) and
+--  ( the sms message S is from the number N ) and
+--  ( no person P has the number N as telephone number )
+--then
+--  ( there is a shadow person named P_#person-_$N ) and
+--  ( the shadow person P has the number N as telephone number ) and
+--  ( the shadow person P has the value '8.48933006' as latitude ) and
+--  ( the shadow person P has the value '-13.28442264' as longitude )
+--.
