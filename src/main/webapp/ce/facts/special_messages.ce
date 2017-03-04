@@ -68,13 +68,13 @@ there is a message named 'msg_sp_4f' that
   is from the person 'Richard' and
   is to the agency 'SafariCom' and
   has '1488765090' as timestamp and
-  has 'and it's got brown stuff in it' as message text.
+  has 'and it\'s got brown stuff in it' as message text.
 
 there is a message named 'msg_sp_4g' that
   is from the agency 'SafariCom' and
   is to the person 'Perry' and
   has '1488765110' as timestamp and
-  has 'Don't drink the water' as message text.
+  has 'Don\'t drink the water' as message text.
 
 there is a message named 'msg_sp_5a' that
   is from the agency 'SafariCom' and
